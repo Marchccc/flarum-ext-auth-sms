@@ -9,6 +9,8 @@ A [Flarum](http://flarum.org) extension. Allow users to log in with SMS
 4. 建议搭配官方扩展 nicknames 使用，开启并设置所有用户可编辑自己的昵称。然后在基本设置中将User Display Name 设置为 nickname
 5. 如果后续用户多的话，会进行调整以支持短信服务商和其他语言。
 
+注意：申请短信模板时，模板内容中，验证码对应变量名称为 ${code}
+
 ### Installation
 
 ```sh
