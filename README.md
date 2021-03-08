@@ -27,4 +27,4 @@ php flarum cache:clear
 
 ### Links
 
-- [Packagist](https://packagist.org/packages/marchccc/flarum-ext-auth-sms)
+- [Packagist](https://packagist.org/packages/march/flarum-ext-auth-sms)
