@@ -1,0 +1,41 @@
+{
+  "name": "march/flarum-ext-auth-sms",
+  "description": "Login using sms",
+  "keywords": [
+      "flarum",
+      "oauth",
+      "sms",
+      "login"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+      "flarum/core": "^0.1.0-beta.15",
+      "alibabacloud/client": "^1.5.29"
+  },
+  "authors": [
+    {
+      "name": "Marchccc",
+      "email": "laosql@163.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "March\\OauthSMS\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Auth SMS",
+      "icon": {
+          "name": "fas fa-sms",
+          "backgroundColor": "#238c59",
+          "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
