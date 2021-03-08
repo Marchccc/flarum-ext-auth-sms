@@ -11,8 +11,8 @@ class SMS
     public function __construct($seeting)
     {
         AlibabaCloud::accessKeyClient(
-            $seeting->get('march-oauth-sms.accessKeyId'),
-            $seeting->get('march-oauth-sms.accessKeySecret')
+            $seeting->get('march-auth-sms.accessKeyId'),
+            $seeting->get('march-auth-sms.accessKeySecret')
         )
             ->regionId('cn-hangzhou')
             ->asDefaultClient();
